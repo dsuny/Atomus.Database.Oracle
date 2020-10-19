@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Atomus</RootNamespace>
+    <AssemblyName>Atomus.Database.Oracle</AssemblyName>
+    <Authors>DSUN</Authors>
+    <Company>Atomus</Company>
+    <Product>Atomus Framework in .Net Core 3.1</Product>
+    <Copyright>Copyright 2020. DSUN all rights reserved.</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/dsuny/Atomus.Database.Oracle</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/dsuny/Atomus.Database.Oracle</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageIcon>atomus.png</PackageIcon>
+    <PackageTags>Atomus Atomus.Core Database Oracle AtomusFramework</PackageTags>
+    <Version>19.9.0</Version>
+    <PackageReleaseNotes>release 19.9.0</PackageReleaseNotes>
+    <Description>Atomus Framework in .Net Core 3.1</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\..\src\Oracle.cs" Link="Oracle.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\image\atomus.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Atomus.Core.dotNetCore" Version="1.0.2" />
+    <PackageReference Include="Oracle.ManagedDataAccess" Version="19.9.0" />
+  </ItemGroup>
+
+</Project>

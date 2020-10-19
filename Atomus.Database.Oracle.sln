@@ -1,0 +1,74 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{08FF1A0B-777B-4379-BE47-3020D35D0F61}"
+	ProjectSection(SolutionItems) = preProject
+		src\Oracle.cs = src\Oracle.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dotNet", "dotNet", "{EBCA3200-D572-426B-80C0-B1917EC69F6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atomus.Database.Oracle.V19.6(dotNet)", "dotNet\Oracle.v19.6\Atomus.Database.Oracle.V19.6(dotNet).csproj", "{C6E4AAEF-EA9B-443E-AB69-DAC4F8A9977A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atomus.Database.Oracle.V19.9(dotNet)", "dotNet\Oracle.v19.9\Atomus.Database.Oracle.V19.9(dotNet).csproj", "{F439E11E-B2D4-48CD-A982-6219D29DDA5A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dotNetCore", "dotNetCore", "{DDFEE50D-41E0-420D-BF98-B7A223A00E15}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dotNetStandard", "dotNetStandard", "{52701DA2-C997-4696-A521-C8470E594C62}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Atomus.Database.Oracle.V19.6(dotNetCore)", "dotNetCore\Oracle.v19.6\Atomus.Database.Oracle.V19.6(dotNetCore).csproj", "{28A9E05A-6F6A-44A3-8FC5-34307D4C7DCE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Atomus.Database.Oracle.V19.6(dotNetStandard)", "dotNetStandard\Oracle.v19.6\Atomus.Database.Oracle.V19.6(dotNetStandard).csproj", "{51E46076-4672-491E-9651-8302F8690DD2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Atomus.Database.Oracle.V19.9(dotNetCore)", "dotNetCore\Oracle.v19.9\Atomus.Database.Oracle.V19.9(dotNetCore).csproj", "{DBFFB2C0-9E79-456B-96F5-F58705B5EECC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Atomus.Database.Oracle.V19.9(dotNetStandard)", "dotNetStandard\Oracle.v19.9\Atomus.Database.Oracle.V19.9(dotNetStandard).csproj", "{19E5196A-21E9-4140-8744-AB5A38BE1C3F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C6E4AAEF-EA9B-443E-AB69-DAC4F8A9977A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6E4AAEF-EA9B-443E-AB69-DAC4F8A9977A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6E4AAEF-EA9B-443E-AB69-DAC4F8A9977A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6E4AAEF-EA9B-443E-AB69-DAC4F8A9977A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F439E11E-B2D4-48CD-A982-6219D29DDA5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F439E11E-B2D4-48CD-A982-6219D29DDA5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F439E11E-B2D4-48CD-A982-6219D29DDA5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F439E11E-B2D4-48CD-A982-6219D29DDA5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28A9E05A-6F6A-44A3-8FC5-34307D4C7DCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28A9E05A-6F6A-44A3-8FC5-34307D4C7DCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28A9E05A-6F6A-44A3-8FC5-34307D4C7DCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28A9E05A-6F6A-44A3-8FC5-34307D4C7DCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51E46076-4672-491E-9651-8302F8690DD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51E46076-4672-491E-9651-8302F8690DD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51E46076-4672-491E-9651-8302F8690DD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51E46076-4672-491E-9651-8302F8690DD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBFFB2C0-9E79-456B-96F5-F58705B5EECC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBFFB2C0-9E79-456B-96F5-F58705B5EECC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBFFB2C0-9E79-456B-96F5-F58705B5EECC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBFFB2C0-9E79-456B-96F5-F58705B5EECC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19E5196A-21E9-4140-8744-AB5A38BE1C3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19E5196A-21E9-4140-8744-AB5A38BE1C3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19E5196A-21E9-4140-8744-AB5A38BE1C3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19E5196A-21E9-4140-8744-AB5A38BE1C3F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C6E4AAEF-EA9B-443E-AB69-DAC4F8A9977A} = {EBCA3200-D572-426B-80C0-B1917EC69F6E}
+		{F439E11E-B2D4-48CD-A982-6219D29DDA5A} = {EBCA3200-D572-426B-80C0-B1917EC69F6E}
+		{28A9E05A-6F6A-44A3-8FC5-34307D4C7DCE} = {DDFEE50D-41E0-420D-BF98-B7A223A00E15}
+		{51E46076-4672-491E-9651-8302F8690DD2} = {52701DA2-C997-4696-A521-C8470E594C62}
+		{DBFFB2C0-9E79-456B-96F5-F58705B5EECC} = {DDFEE50D-41E0-420D-BF98-B7A223A00E15}
+		{19E5196A-21E9-4140-8744-AB5A38BE1C3F} = {52701DA2-C997-4696-A521-C8470E594C62}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {54C24F62-85C0-4371-A5CE-0B111CAF0698}
+	EndGlobalSection
+EndGlobal
